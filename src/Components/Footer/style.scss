@@ -1,4 +1,6 @@
+@import "../../../mediaquires.scss";
 .footer{
+     /* footer */
     display: flex;
     height:260px;
     background-color: black;
@@ -6,40 +8,50 @@
 position: relative;
 width: 100%;
 height: 149px;
-margin: 68px 435px;
+margin: 68px 45px;
 display: flex;
 gap:20px;
 align-items: center;
 flex-direction: column;
+@include md{
+    margin: 68px 435px;
+}
 img{
-    /* Group */
+    /* img of footer */
 
-    width: 165px;
-    height: 46.26px;
-    
-    
+   
+    width: 150px;
+    height: 40px;
+    @include md{
+        width: 165px;
+        height: 46.26px;
+    }
 
 
 }
 .line{
-    /* Line 119 */
+    /* line of footer */
 
-width: 100%;
+width: 80%;
 border: 1px solid #5E5E5E;
 transform: rotate(0.36deg);
-
+      @include md{
+        width:100%;
+      }
 }
 .copywright{
     /* © 2024 All Rights Reserved - Chaintech Network */
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 12px;
 line-height: 25px;
 /* identical to box height, or 179% */
 text-align: center;
 
 color: #98A6AC;
-
+    @include md{
+        font-size: 14px;
+    }
 
 }
     }

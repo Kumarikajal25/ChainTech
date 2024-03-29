@@ -11,11 +11,11 @@ const Description = () => {
     <p className='To'>TO</p>
    <p className='tech'>CHAINTECH</p>
     </div>
-    <div className="last">
+    <p className='last'>
     From square one to engineering excellence!
-     PixelPlex assists in full-cycle software development,
+     PixelPlex assists in full-cycle software <br></br>development,
       jumps in to take it over, or brings dedicated top-demanded skills.
-    </div>
+    </p>
     <div className="btn-class">
       <button>
         <div className="inside-btn">

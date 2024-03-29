@@ -10,28 +10,51 @@ nav{
     display:flex; 
     .logo{
       position: absolute;
-       width: 165px;
-height: 48.5px;
+       width: 155px;
+height: 40.5px;
 top: 27.5px;
-left: 100px;
+left: 50px;
 cursor: pointer;
    @include md{
+    width: 165px;
+    height: 48.5px;
     left:348px;
    }
     }
    
     ul{
-        display: flex;
+        display: none;
+        flex-direction: column;
         list-style: none;
-        align-items: center;
-       gap:49px;
+        left: 430px;
+    background-color: rgb(50 51 51);;
+    top: 30px;
+    min-width: 180px;
+    align-items: center;
+       gap:28px;
        font-size: 18px;
        font-weight: 600; 
        position: absolute;
+@include md{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #060606;
+  width: 600px;
 height: 34px;
-left: 848px;
 top: 37px;
+  left:848px;
 
+  gap:49px;
+
+}  
+&.icon-display{
+  display: flex;
+ }  li{
+         margin-top: 10px;
+    @include md{
+      margin-top:0px;
+    }
               a{
             color: #FFFFFF;
             text-decoration: none;
@@ -39,8 +62,22 @@ top: 37px;
               color: #00FFA7;
 
             }
-       }
+       } }
     }
+    .mobileMenuItems {
+      display: flex;
+      align-items: center;
+      position: absolute;
+    right: 30px;
+    top:40px;
+      @include md {
+          display: none;
+      }
+      svg {
+          font-size: 18px;
+          color: white;
+      }
+  }
 }
 .line{
 

@@ -10,7 +10,10 @@ const Content = () => {
       <div className="top-contents">
       <div className="contents">
       <h1>Services We Offer</h1>
-        <p>Discover the digital possibilities for your brand with our comprehensive suite of services.</p>
+      <div className="para-content">
+      <p>Discover the digital possibilities for your brand with our comprehensive suite of services.</p>
+      </div>
+       
       </div>
       <div className="icons">
         <div className="left"><IoIosArrowRoundBack/></div>
