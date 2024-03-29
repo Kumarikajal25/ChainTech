@@ -1,0 +1,75 @@
+.contents{
+    .content-items{
+      position: relative;
+      margin:89px 230px;
+      .top-contents{
+       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .contents{
+        display: flex;
+        flex-direction: column;
+        h1{
+          /* Services We Offer */
+ font-style: normal;
+ font-weight: 600;
+ font-size: 50px;
+ line-height: 141.4%;
+
+color: #000000;
+
+
+        }
+        p{
+          /* Discover the digital possibilities for your brand with our comprehensive suite of services. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 141.4%;
+/* or 25px */
+
+color: #000000;
+
+
+        }
+      }
+      .icons{
+        /* Group 1000001348 */
+        display: flex;
+        align-items: center;
+        gap:10px;
+        .left{
+          svg{
+          width:30px;
+          height:30px;
+          }
+        }
+        .circular-icon{
+          /* Button - right-button */
+ svg{
+  width: 48px;
+height: 48px;
+ }
+
+
+        }
+
+
+
+      }
+    }
+    .card{
+      display: flex;
+      padding-bottom:20px;
+    }
+    #second{
+      button{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, #FFFFFF 0.01%, #FFFFFF 100%)  !important;
+      }
+      p{
+        color: #000000 !important;
+      }
+    }
+    }
+}

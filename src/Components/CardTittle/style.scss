@@ -1,0 +1,172 @@
+.card-items{
+display: flex;
+gap:10px;
+.card-item{
+    width: 260px;
+    border: 3px solid #000000;
+    position: relative;
+top:30px;
+border-radius: 20px;
+    height: 402px;
+      padding-bottom:20px;
+      border-radius: 20px;
+
+.card-tittle-top{
+    display: flex;
+    position: relative;
+    left: 20px;
+    align-items: center;
+    top: 10px;
+     img{
+        /* Ellipse 4313 */
+/* Ellipse 4313 */
+
+
+width: 29px;
+height: 29px;
+
+
+
+
+
+     }
+     p{
+        /* Join Development */
+
+width: 316px;
+height: 21px;
+
+position: relative;
+right: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 141.4%;
+/* or 21px */
+text-align: center;
+
+color: #000000;
+
+
+     }
+}
+.border-1{
+    /* Rectangle */
+
+    /* Line 120 */
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 57px;
+    
+    border: 2px solid #000000;
+    transform: rotate(-0.17deg);
+    
+
+}
+.card-content{
+    .tittle{
+        /* BlockchainDevelopment */
+
+position: relative;
+width: 260px;
+height: 48px;
+top: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 105.4%;
+/* or 24px */
+text-align: center;
+
+color: #030303;
+
+
+    }
+    img{
+        /* design-prototyping-tool-web-mobile-apps 1 */
+
+        position: relative;
+        width: 261px;
+        height: 156px;
+        top: 125px;
+        transform: scale(0.8);
+
+    }
+}
+.border-2{
+    
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 335px;
+    
+    border: 2px solid #000000;
+    
+
+}
+.card-footer{
+    display: flex;
+    button{
+        /* Primary button */
+
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16.5px 14px;
+gap: 10px;
+
+position: absolute;
+width: 117.79px;
+height: 38.55px;
+left: 120px;
+top: 350px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, #FFFFFF 0.01%, #FFFFFF 100%);
+border: 2px solid #000000;
+box-shadow: 0px 4px 24px -1px #FFFFFF;
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+      .inner-content{
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        display: flex;
+   gap:20px;
+        align-items: center;
+        p{
+            /* Explore */
+height: 20.35px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 141.4%;
+/* or 20px */
+
+color: #000000;
+
+
+        }
+        .forward-icon{
+            display: flex;
+            align-items: center;
+            svg{
+                /* Ellipse 437 */
+width: 23.71px;
+height: 23.71px;
+background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+  border-radius: 50%;
+            }
+        }
+      }
+    }
+}
+}
+}

@@ -1,0 +1,115 @@
+.description{
+    background-color: #060606;
+    height:614px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .headings{
+ width:988px;
+ height:368.06px;
+display: flex;
+flex-direction: column;
+position: absolute;
+align-items: center;
+justify-content: center;
+top: 200px;
+gap:10px;
+color: aliceblue;
+.head{
+    /* WELCOME */
+   position: relative;
+   left:5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+}
+.content{
+    display: flex;
+    position: relative;
+    .To{
+        /* TO */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+   
+    letter-spacing: 0.11em;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    .tech{
+        /* CHAINTECH */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+    }
+}
+.last{
+    /* From square one to engineering excellence! PixelPlex assists in full-cycle software development, jumps in to take it over, or brings dedicated top-demanded skills. */
+    width: 971px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152.19%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    
+    
+    
+
+}
+.btn-class{
+    button{
+        /* Primary button */
+       position: relative;
+       top:35px;
+        box-sizing: border-box;
+        width: 211.97px;
+        height: 66.06px;
+        background: #FFFFFF;
+        border: 3px solid #000000;
+        box-shadow: 0px 4px 24px -1px #000000;
+        backdrop-filter: blur(5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        .inside-btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+    p{
+        
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 141.4%;
+            color: #000000;            
+    }
+    svg{
+        width: 31.17px;
+    height: 31.17px;
+    }
+        }
+      
+    }
+}
+    
+}
+
+    }

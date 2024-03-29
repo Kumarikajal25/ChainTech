@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    height:260px;
+    background-color: black;
+    .footer-content{
+position: relative;
+width: 100%;
+height: 149px;
+margin: 68px 435px;
+display: flex;
+gap:20px;
+align-items: center;
+flex-direction: column;
+img{
+    /* Group */
+
+    width: 165px;
+    height: 46.26px;
+    
+    
+
+
+}
+.line{
+    /* Line 119 */
+
+width: 100%;
+border: 1px solid #5E5E5E;
+transform: rotate(0.36deg);
+
+}
+.copywright{
+    /* © 2024 All Rights Reserved - Chaintech Network */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+text-align: center;
+
+color: #98A6AC;
+
+
+}
+    }
+}
