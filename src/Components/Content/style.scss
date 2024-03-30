@@ -3,7 +3,7 @@
 .contents{
     .content-items{
       position: relative;
-      margin: 50px 100px;
+      margin: 50px 70px;
       @include md{
         margin:89px 230px;
       }
@@ -51,7 +51,7 @@ color: #000000;
         /* Group 1000001348 */
         display: flex;
         position: relative;
-    left: 30px;
+    left: 20px;
         align-items: center;
         gap:10px;
         @include md{
